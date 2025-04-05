@@ -43,3 +43,38 @@ button {
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+#chat {
+  padding: 1em;
+  background: #fff;
+  margin: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#chat h2 {
+  margin-bottom: 10px;
+}
+
+#chat-box {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+#chat-input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#chat button {
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
